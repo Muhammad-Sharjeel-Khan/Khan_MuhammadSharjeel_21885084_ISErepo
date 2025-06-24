@@ -29,7 +29,7 @@ def main():
     print(f"Your generation : {gen1}")
     
     # Ask if user wants to compare with another birthday
-    compare_choice = input("\nDo you want to compare with another birthday? (yes/y): ").lower()
+    compare_choice = input("\nDo you want to compare with another birthday? (yes/y, otherwise press enter): ").lower()
     
     if compare_choice == "yes" or compare_choice == "y":
         # Get second birthday
